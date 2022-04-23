@@ -58,9 +58,9 @@ near call $CONTRACT createGame --accountId <YOUR_DEV_ACCOUNT_HERE> --amount 5
 
 * Play the game
 ```
-near call $CONTRACT play '{"id": <gameid>, "selectedNumber": <selected-number>}' --account_id kadirg.testnet
+near call $CONTRACT play '{"id": <gameid>, "selectedNumber": <selected-number>}' --account_id <YOUR_DEV_ACCOUNT_HERE>
 ```
-- Remember you need to write GameId as "string" and your selected number as "integer"
+- Remember you need to write Game id as "string" and your selected number as "integer"
 - You have 5 attemp to guess the right number
 - If you can you will get your money back to your account
 - If you can't than money will be lost

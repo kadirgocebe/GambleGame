@@ -1,13 +1,14 @@
 #### GAMBLE GAME Smart Contract Game Developed by NEAR
 ==================
 
-A [smart contract] written in [AssemblyScript] for NEAR Environment
+A smart contract game written in AssemblyScript for NEAR Environment by Kadir Gocebe
 
 
 ## What Does Code Do?
 ===========
 
-This is a Guess Game 
+This is a basic Guess the Number Gamble Game
+ 
 1- Game generate a random number between 1 - 100
 
 2- Player tries to find it in 5 attept

@@ -3,13 +3,18 @@
 
 A smart contract game written in AssemblyScript for NEAR Environment by Kadir Gocebe
 
+## Loom Video
+===========
+```
+https://www.loom.com/share/1f931399f44c49d2bc9f98c751f951b4
+```
 
 ## What Does Code Do?
 ===========
 
 This is a basic Guess the Number Gamble Game
  
-1- Game generate a random number between 1 - 100
+1- Game generate a random number between 1 - 10
 
 2- Player tries to find it in 5 attept
 
@@ -68,7 +73,7 @@ near call $CONTRACT play '{"id": <gameid>, "selectedNumber": <selected-number>}'
 
 * You can view the games with view command
 ```
-near view $CONTRACT viewGame '{"gameId": <gameId>}' --accountId <YOUR_DEV_ACCOUNT_HERE>
+near view $CONTRACT viewGame '{"id": <gameId>}' --accountId <YOUR_DEV_ACCOUNT_HERE>
 ```
 
 ## GOOD LUCK !

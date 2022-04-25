@@ -80,8 +80,9 @@ near view $CONTRACT viewGame '{"id": <gameId>}' --accountId <YOUR_DEV_ACCOUNT_HE
 ===========
 
 * After cloning and enter "yarn" then enter the code below then script will guide you through the game.
-
-- ./scripts/script.sh
+```
+./scripts/script.sh
+```
 
 ## GOOD LUCK !
 ==================

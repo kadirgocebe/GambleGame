@@ -76,5 +76,12 @@ near call $CONTRACT play '{"id": <gameid>, "selectedNumber": <selected-number>}'
 near view $CONTRACT viewGame '{"id": <gameId>}' --accountId <YOUR_DEV_ACCOUNT_HERE>
 ```
 
+## How to Use SCRIPT?
+===========
+
+* After cloning and enter "yarn" then enter the code below then script will guide you through the game.
+
+- ./scripts/script.sh
+
 ## GOOD LUCK !
 ==================
